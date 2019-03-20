@@ -16,8 +16,8 @@ services:
 
   users-service:
     container_name: users-service
-    build: ../flask-microservices-users
-    # build: https://github.com/cgpacifico/flask-microservices-users.git
+    # build: ../flask-microservices-users
+    build: https://github.com/cgpacifico/flask-microservices-users.git
     expose:
       - '5000'
     # volumes:
